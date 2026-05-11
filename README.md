@@ -128,6 +128,8 @@ These are expected to be available in the NixOS installer environment.
 ### Example: SSH public key from GitHub
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/yasuo-dev/nixos-vm-setup-public/main/scripts/bootstrap-install.sh -o bootstrap-install.sh
+chmod +x ./bootstrap-install.sh
 sudo bash ./bootstrap-install.sh \
   --user user-dev \
   --host nixos-utm-dev \
