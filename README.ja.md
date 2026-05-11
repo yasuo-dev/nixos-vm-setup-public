@@ -294,7 +294,7 @@ Stage 1:
   この公開リポジトリの bootstrap-install.sh を実行
 
 Stage 2:
-  flakes、agenix、sops-nix などを使って本格的な NixOS 設定を適用
+  flakesなどを使って本格的な NixOS 設定を適用
 ```
 
 ## ライセンス
