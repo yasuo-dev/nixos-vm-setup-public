@@ -128,6 +128,8 @@ lsblk -o NAME,SIZE,TYPE,FSTYPE,MOUNTPOINT,LABEL,MODEL
 ### 例: GitHub の公開 SSH key を使う場合
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/yasuo-dev/nixos-vm-setup-public/main/scripts/bootstrap-install.sh -o bootstrap-install.sh
+chmod +x ./bootstrap-install.sh
 sudo bash ./bootstrap-install.sh \
   --user user-dev \
   --host nixos-utm-dev \
